@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Pizza World
+    </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link href='https://cdn.boxicons.com/fonts/transformations.min.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./Favicon-32x32.webp" rel="icon" type="image/jpeg" sizes="32x32" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <main>
+        <nav class="bg-[#AF1740] text-white font-semibold text-2xl italic flex flex-wrap justify-center md:justify-between items-center py-4 px-4 position-sticky shadow-lg">
+            <div class="px-4">
+                PIZZA WORLD
+            </div>
+
+            <div id="socials" class="flex gap-4 px-4 py-2 transition duration-300 animate-bounce ">
+                <a href="./comingsoon.html" class="text-white hover:text-[#F3F4F6]">
+                    <i class="bx bxl-instagram-alt text-3xl"></i>
+                </a>
+                <a href="./comingsoon.html" class="text-white hover:text-[#F3F4F6]">
+                    <i class="bx bxl-facebook-square text-3xl"></i>
+                </a>
+                <a href="./comingsoon.html" class="text-white hover:text-[#F3F4F6]">
+                    <i class='bx bx-phone text-3xl'></i>
+                </a>
+                <a href="./comingsoon.html" class="text-white hover:text-[#F3F4F6]">
+                    <i class='bx bx-envelope text-3xl'></i>
+                </a>
+            </div>
+
+            <div class="flex flex-wrap justify-center md:justify-end gap-x-8 gap-y-2 mt-4 md:mt-0">
+                <a href="#hero" class="hover:text-[#F3F4F6]">
+                    Home
+                </a>
+                <a href="#foodmenu" class="hover:text-[#F3F4F6]">
+                    Food Menu
+                </a>
+                <a href="#signature" class="hover:text-[#F3F4F6]">
+                    Specials
+                </a>
+                <a href="#socials" class="hover:text-[#F3F4F6]">
+                    Find and Contact us
+                </a>
+            </div>
+        </nav>
+
+        <div class="bg-[url(https://img.freepik.com/premium-photo/delicious-pizza-background-copy-space_953680-29345.jpg)] bg-cover h-screen flex flex-col justify-center items-center text-white font-['Open Sans', sans-serif] font-semibold text-7xl italic text-center"
+            id="hero">
+            <h1 class="tracking-widest">Pizza World</h1>
+            <h3>Your taste buds, our priority</h3>
+        </div>
+
+        <div class="tables p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8" id="foodmenu">
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <table class="table-auto w-full">
+                    <caption class="caption-top text-2xl font-bold mb-4">
+                        Pizza Menu
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="py-4 text-left">Meal</th>
+                            <th class="py-4 text-left">Description</th>
+                            <th class="py-4 text-right">Amount (ugx)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1">Complete Meal</td>
+                            <td class="py-1">1 large pizza, caesar wings, 2 liter bottle of soda</td>
+                            <td class="py-1 text-right">35,000</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1">Super Meal</td>
+                            <td class="py-1">1 large pizza, caesar wings, fries, 2 liter bottle of soda</td>
+                            <td class="py-1 text-right">40,000</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1">Party Meal</td>
+                            <td class="py-1">2 large pizzas, fries, 2 liter bottle of soda</td>
+                            <td class="py-1 text-right">50,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <table class="table-auto w-full">
+                    <caption class="caption-top text-2xl font-bold mb-4">
+                        Drinks Menu
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="py-2 text-left">Drink</th>
+                            <th class="py-2 text-right">Amount (ugx)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1">Soda</td>
+                            <td class="py-1 text-right">3,000</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1">Juice</td>
+                            <td class="py-1 text-right">4,000</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1">Water</td>
+                            <td class="py-1 text-right">1,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <table class="table-auto w-full">
+                    <caption class="caption-top text-2xl font-bold mb-4">
+                        Appetizers Menu
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="py-2 text-left">Appetizer</th>
+                            <th class="py-2 text-right">Amount (ugx)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1">Avocado Salad</td>
+                            <td class="py-1 text-right">10,000</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1">Garlic Bread</td>
+                            <td class="py-1 text-right">7,000</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1">Bruschetta</td>
+                            <td class="py-1 text-right">10,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <table class="table-auto w-full">
+                    <caption class="caption-top text-2xl font-bold mb-4">
+                        Dessert Menu
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="py-2 text-left">Dessert</th>
+                            <th class="py-2 text-right">Amount (ugx)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1">Chocolate Cake</td>
+                            <td class="py-1 text-right">10,000</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1">Vanilla Ice Cream</td>
+                            <td class="py-1 text-right">10,000</td>
+                        </tr>
+                        <tr>
+                            <td class="py-1">Chocolate Mousse</td>
+                            <td class="py-1 text-right">10,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="bg-[#AF1740] p-8 text-white" id="signature">
+            <h3 class="text-center text-4xl font-bold p-4 transition duration-700 animate-ping">
+                The Signature Six!!
+            </h3>
+            <h4 class="text-center text-2xl font-semibold p-4">
+                Try out some of our world famous signature favourites!!
+            </h4>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
+                <div class="bg-[#F3F4F6] text-[#740938] p-4 rounded-lg shadow-lg font-semibold italic flex flex-col items-center text-center">
+                    <img src="https://simplyhomecooked.com/wp-content/uploads/2016/07/margherita-pizza-recipe-6.jpg" alt="Margherita Pizza" class="w-48 h-48 object-cover rounded-md mb-4">
+                    <h5 class="text-xl">Margherita Pizza</h5>
+                </div>
+
+                <div class="bg-[#F3F4F6] text-[#740938] p-4 rounded-lg shadow-lg font-semibold italic flex flex-col items-center text-center">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" alt="Classic Cheese Pizza" class="w-48 h-48 object-cover rounded-md mb-4">
+                    <h5 class="text-xl">Large Cheese</h5>
+                </div>
+
+                <div class="bg-[#F3F4F6] text-[#740938] p-4 rounded-lg shadow-lg font-semibold italic flex flex-col items-center text-center">
+                    <img src="https://www.bacinos.com/wp-content/uploads/2021/05/27-Meat-Lovers-Pizza-Recipes.jpg" alt="Meat Lovers Pizza" class="w-48 h-48 object-cover rounded-md mb-4">
+                    <h5 class="text-xl">Meat Treat</h5>
+                    <p class="text-sm">Sausage, Chicken, Beef</p>
+                </div>
+
+                <div class="bg-[#F3F4F6] text-[#740938] p-4 rounded-lg shadow-lg font-semibold italic flex flex-col items-center text-center">
+                    <img src="https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg" alt="Supreme Pizza" class="w-48 h-48 object-cover rounded-md mb-4">
+                    <h5 class="text-xl">Ultimate Supreme</h5>
+                    <p class="text-sm">Italian sausage, mushrooms, green peppers, and onions</p>
+                </div>
+
+                <div class="bg-[#F3F4F6] text-[#740938] p-4 rounded-lg shadow-lg font-semibold italic flex flex-col items-center text-center">
+                    <img src="https://www.superhealthykids.com/wp-content/uploads/2021/10/best-veggie-pizza-featured-image-square-2.jpg" alt="Veggie Pizza" class="w-48 h-48 object-cover rounded-md mb-4">
+                    <h5 class="text-xl">Large Veggie</h5>
+                    <p class="text-sm">Green peppers, Onions, Mushrooms, Black olives, and Italian seasoning</p>
+                </div>
+
+                <div class="bg-[#F3F4F6] text-[#740938] p-4 rounded-lg shadow-lg font-semibold italic flex flex-col items-center text-center">
+                    <img src="https://i.pinimg.com/736x/90/e4/e9/90e4e9cae6ded1516d2fae45a25fe9ee.jpg" alt="Caesar Wings" class="w-48 h-48 object-cover rounded-md mb-4">
+                    <h5 class="text-xl">Caesar Wings</h5>
+                    <p class="text-sm">Crispy chicken wings with Caesar dressing</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+          <h4 class="text-center text-2xl font-semibold p-4">
+            Come and be part of our Pizza Family!
+          </h4>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 p-8  bg-gray-100 justify-around " id="gallery">
+          <img src="https://images7.alphacoders.com/350/350913.jpg" alt="pizza with mushroom topping" class="w-48 h-48 object-cover rounded-md mb-4 ease-in-out transition duration-300 hover:scale-105">
+          <img src="https://images.alphacoders.com/101/1016857.jpg" alt="pizza with veggie toppings" class="w-48 h-48 object-cover rounded-md mb-4 ease-in-out transition duration-300 hover:scale-105">
+          <img src="https://design-middleeast.com/wp-content/uploads/2021/05/ytzIdRtw.jpeg" alt="restaurant interior" class="w-48 h-48 object-cover rounded-md mb-4 ease-in-out transition duration-300 hover:scale-105">
+          <img src="https://images.summitmedia-digital.com/spotph/images/2022/10/21/2ef13a-d642ec4ff8f6407db3ae64231efdb7bd-mv2-1666337298.jpg" alt="pizza with cheese" class="w-48 h-48 object-cover rounded-md mb-4 ease-in-out transition duration-300 hover:scale-105">
+          <img src="https://goldenfingers.us/wp-content/uploads/2020/03/french_fry-768x788.jpg" alt="fries" class="w-48 h-48 object-cover rounded-md mb-4 ease-in-out transition duration-300 hover:scale-105">
+          <img src="https://www.licious.in/blog/wp-content/uploads/2023/02/shutterstock_1199926645.jpg" alt="crispy fried chicken" class="w-48 h-48 object-cover rounded-md mb-4 ease-in-out transition duration-300 hover:scale-105">
+        </div>
+
+        <div class="newsletter p-8 bg-gray-100 text-center">
+            <h2 class="text-3xl font-bold mb-2">Join Our Newsletter!</h2>
+            <p class="text-lg mb-4">Stay updated with our latest offers and promotions!</p>
+
+            <form action="#" method="POST" class="flex flex-col items-center gap-4">
+                <input type="email" name="email" placeholder="Enter your email" required
+                    class="p-3 rounded-md border border-gray-300 w-full max-w-sm focus:outline-none focus:ring-2 focus:ring-[#AF1740]">
+                <button type="submit"
+                    class="bg-[#AF1740] text-white px-6 py-3 rounded-md hover:bg-[#740938] transition duration-300 animate-bounce">Subscribe</button>
+                <p class="text-sm text-gray-500">No real emails are collected, this is a demo</p>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-[#333] text-white p-4 text-center">
+        <h3 class="text-2xl font-semibold mb-2">Pizza World</h3>
+        <p>© 2025 Pizza World. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+
+
+.tables {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 24px; 
+    padding: 24px; 
+    justify-items: center; 
+}
+
+
+.tables table { 
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+
+.tables caption {
+    caption-side: top; 
+    text-align: center;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 1rem; 
+    color: #333; 
+}
+
+
+.tables th,
+.tables td {
+    padding: 12px 8px; 
+    border-bottom: 1px solid #E5E7EB; 
+    text-align: left; 
+}
+
+
+.tables th {
+    background-color: #AF1740;
+    color: white; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    border-bottom: 2px solid #740938; 
+}
+
+
+.tables tbody tr:nth-child(even) {
+    background-color: #F9FAFB; 
+}
+
+.tables tbody tr:hover {
+    background-color: #EFEFEF; 
+    cursor: pointer;
+}
+
+
+.tables tbody tr:last-child td {
+    border-bottom: none;
+}
+#gallery:hover{
+    
+}
